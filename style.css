@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6{
 section{
   height: 470px;
   padding-bottom: 150px;
+  display: block;
 }
 .top-hero{
   background-image: url(images/donation1.jpg);
@@ -38,15 +39,58 @@ section{
   color: white;
   font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
+/* Donate today*/
+.donate-sec{
+  justify-content: space-evenly;
+  align-items: center;
+}
+.donate-day{
+  text-align: center;
+  padding-top: 80px;
+}
+.donate-day h1{
+  font-weight: bold;
+}
+.donat-pre{
+  font-weight: bold;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.donate-tk{
+  border: 2px solid gray;
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.02);
+  font-size: 18px;
+  margin-top: 30px;
+  border: 0px solid ;
+  border-radius: 5px;
+}
+#pracing{
+  background-color: rgb(255,238,238);
+  border: 3px solid red;
+}
+.others-ammount{
+  text-align: center;
+  padding-top: 50px;
+}
+.border-none{
+  width: 100%;
+  padding: 18px;
+  border: none;
+  outline: 0px solid transparent;
+  text-align: center;
+  font-weight: bold;
+}
+.others-ammount hr{
+  width: 50%;
+  color: lightgray;
+  margin-bottom: 30px;
+}
 
 
 
