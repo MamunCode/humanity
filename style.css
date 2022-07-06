@@ -93,7 +93,7 @@ section{
 }
 /*Donate plan*/
 .donate-plan{
-  display: flex;
+ display: flex;
  justify-content: space-evenly;
  padding-top: 40px;
 }
@@ -130,23 +130,94 @@ section{
 #donate-three{
   background-color: rgb(255,244, 214);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*There depend*/
+.depend-top{
+  padding-bottom: 10px;
+}
+.depend-prents{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.child-depend{
+ width: 40%;
+}
+.child-depend h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+.child-depend p{
+  color: gray;
+  font-style: normal;
+  
+}
+.child-depend img{
+  width: 100%;
+  border-radius: 10px;
+}
+.anchoor-depend{
+  padding: 10px 30px;
+  background-color: tomato;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+/*Get My Updates*/
+.get-updates{
+  text-align: center;
+  padding: 0;
+}
+.get-content{
+  text-align: center;
+}
+.get-content h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+.get-content p{
+  color: gray;
+}
+.get-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  height: 40vh;
+  width: 60%;
+  margin: 0 auto;
+}
+.form-box{
+  display: ;
+}
+.email-get{
+  padding: 10px 10px;
+  background-color: rgb(217,217,217);
+  border: 1px solid rgb(217,217,217);
+  outline: 0px solid transparent;
+}
+.get-subscribe .btn{
+  padding: 10px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  height: 150px;
+}
+.footer-content h1{
+  text-align: center;
+  color: rgb(255,89,89);
+  font-style: italic;red
+  font-size: 20px;
+  padding-top: 25px;
+}
+.footer-content p{
+  color: white;
+  font-weight: normal;
+}
 
 
 
