@@ -91,16 +91,45 @@ section{
   color: lightgray;
   margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
+/*Donate plan*/
+.donate-plan{
+  display: flex;
+ justify-content: space-evenly;
+ padding-top: 40px;
+}
+.donate-content{
+  text-align: center;
+}
+.donate-content h1{
+  font-weight: 900;
+  color :black;
+  font-size: 40px;
+}
+.donate-content p{
+  color: gray;
+}
+.donate-three{
+  border: 1px solid gray;
+  padding: 20px;
+  width: 280px;
+  height: 220px;
+}
+.donate-three img{
+  width: 50px;
+}
+.donate-three h2{
+  font-weight: bold;
+  font-size: 18px;
+}
+#donate-one{
+  background-color: rgb(237,245, 246);
+}
+#donate-two{
+  background-color: rgb(255,238, 238);
+}
+#donate-three{
+  background-color: rgb(255,244, 214);
+}
 
 
 
